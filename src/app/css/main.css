@@ -317,6 +317,14 @@ tr
 
 /**************** Dispense Order **************/
 /******* blue button styles *********/
+.edit-btn {
+  float: right; }
+
+.visit-btn {
+  position: relative;
+  top: 12px;
+  float: right; }
+
 .flex {
   display: flex; }
 

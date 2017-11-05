@@ -52,15 +52,17 @@
   <div class="container-fluid">
     <div class="row">
       <div class="flex flex-spread bottom-nav">
-        <div class="col-md-6 individual-name">
+        <div class="col-md-9 individual-name">
           <h1>D
             <span class="individual-id-num">TK421</span>
           </h1>
         </div>
-        <button class="blue-button flex flex-center edit-button"> Edit </button>
+        <div class="col-md-1">
+          <input type="submit" class="btn btn-block btn-primary edit-btn" value="Edit">
+        </div>
       </div>
-
     </div>
+
     <div class="row individual-table-row">
       <div class="col-md-10">
         <table class="">
@@ -127,7 +129,9 @@
         <!--/.nav-collapse -->
         <!--/.container-fluid -->
       </nav>
-      <button class="blue-button flex flex-center"> Add New Visit </button>
+      <div class="col-md-3">
+        <input type="submit" class="btn btn-primary visit-btn" value="Add New Visit">
+      </div>
     </div>
 
     <table>
@@ -161,9 +165,6 @@
           <td> 60 </td>
           <td> 00 </td>
           <td> Notes... </td>
-          <td>
-            <a href=""><span class="glyphicon glyphicon-pencil" aria-hidden="pencil-icon"></span></a>
-          </td>
         </tr>
         <tr key="uniqueKey2">
           <td> 11/01/2017 </td>
@@ -178,9 +179,6 @@
           <td> 60 </td>
           <td> 00 </td>
           <td> Notes... </td>
-          <td>
-            <a href=""><span class="glyphicon glyphicon-pencil" aria-hidden="pencil-icon"></span></a>
-          </td>
         </tr>
         <tr key="uniqueKey3">
           <td> 11/01/2017 </td>
@@ -195,9 +193,6 @@
           <td> 60 </td>
           <td> 00 </td>
           <td> Notes... </td>
-          <td>
-            <a href=""><span class="glyphicon glyphicon-pencil" aria-hidden="pencil-icon"></span></a>
-          </td>
         </tr>
         <tr key="uniqueKey4">
           <td> 11/01/2017 </td>
@@ -213,8 +208,6 @@
           <td> 00 </td>
           <td> Notes... </td>
           <td>
-            <a href=""><span class="glyphicon glyphicon-pencil" aria-hidden="pencil-icon"></span></a>
-          </td>
         </tr>
       </tbody>
     </table>
